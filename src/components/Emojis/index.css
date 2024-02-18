@@ -1,0 +1,32 @@
+.emoji-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #343243;
+  border-radius: 12px;
+  height: 200px;
+  width: 450px;
+}
+
+.emoji-list-container {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.emoji-icon {
+  width: 24px;
+}
+
+.selected-image {
+  width: 40px;
+}
+
+.emoji-inner-container {
+  gap: 12px;
+  display: flex;
+  justify-content: space-between;
+}

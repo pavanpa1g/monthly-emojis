@@ -1,0 +1,57 @@
+.Dates-bg-container {
+  background-color: #343243;
+  height: 400px;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul-items-container {
+  width: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 10px;
+  margin-bottom: 5px;
+  padding-left: 0px;
+}
+
+.li-item-dates {
+  width: 44px;
+  background-color: #42404d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  border-radius: 8px;
+  /* padding-left: 0px; */
+  gap: 2px;
+}
+
+.para-date {
+  margin: 0px;
+}
+
+.days-li {
+  background-color: transparent;
+}
+.li-emoji {
+  width: 16px;
+  align-self: center;
+}
+
+.button {
+  border: none;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.align-column {
+  flex-direction: column;
+}
